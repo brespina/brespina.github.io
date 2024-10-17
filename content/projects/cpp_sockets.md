@@ -1,8 +1,11 @@
 +++
 title = "interprocess communication with sockets"
-description = "Operating Systems Class Assignment 3"
-weight = 1
+description = "operating systems assignment 2. client.cpp creates child threads and they each establish they're own unique connection with Server.cpp"
+weight = 6
 
 [extra]
-remote_image = "https://images.unsplash.com/photo-1462556791646-c201b8241a94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1465&q=80"
+local_image = "/projects/cropped_oleksandr-chumak-zGuBURGGmdY-unsplash.jpg"
 +++
+
+[github](https://github.com/brespina/3360_Summer_2023/tree/main/OS%20Unit%202/PA2)
+  

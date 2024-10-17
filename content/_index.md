@@ -5,6 +5,9 @@ description = ""
 +++
 
 ---
+
+# about me
+
 i am brandon. i'm a computer science graduate from the university of houston.
 
 i love to learn and solve puzzles. my curiousity leads me to tinker with new tools and technologies. my current interests are linux, zsh, and vim.
@@ -15,39 +18,32 @@ zsh (z shell) was also recommended by the same friend. i haven’t used it enoug
 
 vim is a new challenge i've taken on, and i wish i’d started sooner. not using the mouse feels like a layer of friction has disappeared. right now, i’m getting familiar with commands like `b, w, e, 0, $, dd`, and the more i use it, the more efficient i feel.
 
-```:q to exit btw```
-
-
 ---
 
-## certifications
+# certifications
+
 - **docker foundations professional certificate**: (2024-09)
 
---- 
-
-
-
 ---
 
-## skills
+# skills
+
 - **programming**: python, javascript, c++
+- **libraries**: opencv, matplotlib, numpy, pandas, ffmpeg, seaborn, scikit-learn
 - **frameworks**: react, vue.js, nuxt.js
-- **tools**: git, docker, ci/cd, vim, zsh, bash, powershell
+- **tools**: git, docker, ci/cd, vim, neovim, zsh, bash, powershell
 
 ---
 
+# latest posts
 
-
-
----
-
-## latest posts
 - [learning vim](./posts/learning-vim)
 - [learning linux](./posts/learning-linux)
 
 ---
 
-## contact
+# contact
+
 - [github](https://github.com/brespina)
 - [linkedin](https://linkedin.com/in/brandon-espina)
 - [email](mailto:brandon.r.espina@gmail.com)
@@ -55,4 +51,3 @@ vim is a new challenge i've taken on, and i wish i’d started sooner. not using
 ---
 
 [/do not click this](./gotem/video)
-

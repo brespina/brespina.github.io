@@ -1,8 +1,11 @@
 +++
 title = "c++ multithreading"
-description = "postgresql, typescript, fastAPI, react. my first introduction to web application development. this was my final project for my intro to databases course."
-weight = 1
+description = "beginner multithreading assignment from introduction to operating systems."
+weight = 6
 
 [extra]
-remote_image = "https://images.unsplash.com/photo-1462556791646-c201b8241a94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1465&q=80"
+local_image = "/projects/cropped_luca-bravo-XJXWbfSo2f0-unsplash.jpg"
 +++
+
+
+[github](https://github.com/brespina/3360_Summer_2023/tree/main/OS%20Unit%201/PA1)
