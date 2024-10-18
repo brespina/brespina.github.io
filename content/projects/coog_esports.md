@@ -1,6 +1,6 @@
 +++
-title = "coog esports website"
-description = "writing a functioning website that the users, and officers of coog esports, will be able to use to manage their student organization"
+title = "coog esports web application"
+description = "writing a functioning web application that the users, and officers of coog esports, will be able to use to manage their student organization"
 weight = 2
 
 [extra]
