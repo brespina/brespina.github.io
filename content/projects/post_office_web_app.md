@@ -9,7 +9,7 @@ local_image = "/projects/cropped_email.png"
 
 example project page
 
-__updated__: 09/19/2024
-__todo__: finish explanation, provide metric images
+**updated**: 09/19/2024
+**todo**: finish explanation, provide metric images
 
 [github](https://github.com/brespina/PostOfficeApp)

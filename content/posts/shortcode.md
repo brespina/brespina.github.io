@@ -6,9 +6,8 @@ date = "2024-06-14"
 tags=["example"]
 +++
 
-
 ## Note
- 
+
 Here is an example of the `note` shortcode:
 
 This one is static!
@@ -17,8 +16,8 @@ This one is static!
 This one is clickable!
 {{ note(clickable=true, hidden = true, header="Quiz!", body="The answer to the quiz!") }}
 
-
 Syntax:
+
 ```
 {{/* note(header="Note!", body="This blog assumes basic terminal maturity") */}}
 {{/* note(clickable=true, hidden = true, header="Quiz!", body="The answer to the quiz!") */}}
@@ -27,8 +26,8 @@ Syntax:
 You can also use some HTML in the text:
 {{ note(header="Note!", body="<h1>This blog assumes basic terminal maturity</h1>") }}
 
-
 Literal shortcode:
+
 ```
 {{/* note(header="Note!", body="<h1>This blog assumes basic terminal maturity</h1>") */}}
 ```
@@ -60,7 +59,7 @@ Here is the raw markdown:
 
 \`\`\`rust
 fn main() {
-    println!("Hello World");
+println!("Hello World");
 }
 \`\`\`
 
@@ -75,4 +74,5 @@ Finally, we have center
 ```markdown
 {{/* note(center=true, header="Centered Text", body="This is centered text") */}}
 ```
+
 It works good enough for me!

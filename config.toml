@@ -73,8 +73,8 @@ socials = [
   { name = "email", url = "mailto:brandon.r.espina@gmail.com", icon = "email" },
 ]
 menu = [
-    # { name = "/home", url = "", weight = 1},
-    { name = "/projects", url = "/projects", weight = 1 },
-    { name = "/posts", url = "/posts", weight = 2 },
-    { name = "/tags", url = "/tags", weight = 3 },
+    { name = "/courses", url = "/courses", weight = 1},
+    { name = "/projects", url = "/projects", weight = 2 },
+    { name = "/posts", url = "/posts", weight = 3 },
+    { name = "/tags", url = "/tags", weight = 4 },
 ]

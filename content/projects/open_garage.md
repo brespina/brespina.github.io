@@ -7,5 +7,4 @@ weight = 1
 local_image = "/projects/cropped_OpenGarage.png"
 +++
 
-
 [github](https://github.com/brespina/OpenGarage)

@@ -20,7 +20,7 @@ sets the color theme for your blog.
 
 the "toggle" option allows users to switch between light and dark modes, while "auto" typically follows the user's system preferences.
 
-## menu 
+## menu
 
 defines the navigation menu items for your blog.
 
@@ -38,7 +38,7 @@ defines the navigation menu items for your blog.
 
 ## socials
 
-defines the social media links. 
+defines the social media links.
 
 - type: array of objects
 - default: []
@@ -91,7 +91,6 @@ enables or disables the comment system for posts.
 after making `comment = true` save your script from [giscus](https://giscus.app) to `templates/_giscus_script.html`.
 when enabled, this allows readers to leave comments on your blog posts.
 
-
 ## fancy code styling (`fancy_code`)
 
 enables enhanced styling for code blocks.
@@ -127,6 +126,7 @@ the `repo_url` can be set in the `[extra]` section or in your `config.toml`.
 ## anchor links
 
 you can add anchor links by adding the following to your `_index.md`:
+
 ```toml
 insert_anchor_links = "heading"
 ```

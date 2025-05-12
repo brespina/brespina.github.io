@@ -14,6 +14,6 @@ here we were tasked to use fourier transform on a signal. our signal is an image
 1. treat the entire image as one period.
 2. we have to use the discrete fourier transform instead of continuous since image pixels `image[i][j]` can only be integers
 
-__updated__ : 09/19/2024
+**updated** : 09/19/2024
 
-__todo__: provide visuals and finish explanation
+**todo**: provide visuals and finish explanation
