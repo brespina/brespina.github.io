@@ -1,2 +1,5 @@
 User-agent: *
-Disallow: /
+Disallow:
+
+Sitemap: https://bwandii.io/sitemap.xml
+
