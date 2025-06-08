@@ -17,3 +17,9 @@ here we were tasked to use fourier transform on a signal. our signal is an image
 __updated__ : 09/19/2024
 
 __todo__: provide visuals and finish explanation
+
+
+```py
+for i in range(5):
+    print(i)
+```
