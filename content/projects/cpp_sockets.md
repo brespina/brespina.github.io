@@ -8,4 +8,3 @@ local_image = "/projects/cropped_oleksandr-chumak-zGuBURGGmdY-unsplash.jpg"
 +++
 
 [github](https://github.com/brespina/3360_Summer_2023/tree/main/OS%20Unit%202/PA2)
-  

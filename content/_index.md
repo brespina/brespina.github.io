@@ -23,6 +23,7 @@ i am about a month into using neovim and i have fallen in love. the configuratio
 # certifications
 
 - **docker foundations professional certificate**: (2024-09)
+- **hubspot academy inbound marketing certificate**: (2025-05)
 
 ---
 
