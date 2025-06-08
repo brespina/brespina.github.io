@@ -1,4 +1,4 @@
-base_url = "https://brandonespina.com"
+base_url = "https://bwandii.io"
 theme = "apollo"
 taxonomies = [{ name = "tags" }]
 compile_sass = true
