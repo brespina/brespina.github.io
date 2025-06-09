@@ -6,7 +6,7 @@ description = ""
 
 ---
 
-[![bwandii](https://count.getloli.com/@:bwandii?name=%3Abwandii&theme=moebooru&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)](https://bwandii.io)
+[![bwandii]https://count.getloli.com/@:bwandii?name=%3Abwandii&theme=moebooru&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)]
 
 ---
 
