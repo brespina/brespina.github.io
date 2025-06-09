@@ -6,6 +6,10 @@ description = ""
 
 ---
 
+[![bwandii](https://count.getloli.com/@:bwandii?name=%3Abwandii&theme=moebooru&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)](https://bwandii.io)
+
+---
+
 # about me
 
 i am brandon. i'm a computer science graduate from the university of houston.
@@ -48,10 +52,6 @@ i am about a month into using neovim and i have fallen in love. the configuratio
 - [github](https://github.com/brespina)
 - [linkedin](https://linkedin.com/in/brandon-espina)
 - [email](mailto:brandon.r.espina@gmail.com)
-
----
-
-[![bwandii](https://count.getloli.com/@:bwandii?name=%3Abwandii&theme=moebooru&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)](https://bwandii.io)
 
 ---
 
