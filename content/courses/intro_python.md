@@ -6,40 +6,91 @@ description="introductory python course for the elders"
 
 +++
 
-### 0. Environment Setup and Why Python?
+### welcome
+
+{% note(center=true, header="welcome!") %}
+this course is a passion project, growing up i admired sal khan (and still do) for creating khan academy.
+
+i plan to make more courses, they will always be free, i will never ask for your email or other personal information.
+
+education should be free. i often say this. and i vehemently believe it.
+
+so here is my contribution
+{% end %}
+
+### preface
+
+{% note(center=true, header="my advice") %}
+i am so glad you are here to learn more about programming.
+
+my goal is to write this course as if i am teaching my own parents/family elders, some of whom only recently discovered `ctrl + f`.
+
+try to stay away from chatgpt or other large language models, unless it's for detailed studying. you are here on this page for a reason.
+
+don't allow chatgpt to do your learning for you. either use chatgpt to enhance your studies, or wait until after the course for further exploration.
+
+don't be afraid of error messages. most of my learning and education comes from error messages.
+
+error messages are the single greatest learning tool that is at your disposal. use them!
+
+doing this, you will learn much faster and have more of an understanding of programming in general.
+
+never stop asking "what happens when i do this instead?" or "what if i leave this part out?" etc etc.
+
+try to break things. have fun.
+{% end %}
+
+### expectations
+
+{% note(center=true, header="what can you expect out of this course") %}
+backstory: one of my favorite professors, Dr. Gooch, taught in an unconventional way. he didn't believe in exams. 
+
+instead we had one big project, broken up into checkpoints, that tested our comprehension of the material. 
+
+each checkpoint built on top of the last. 
+
+when you stop and think about what is computer science, you begin to question why aren't most classes taught this way?
+
+we will be doing the same thing here.
+
+by the end we will have a project that manages 
+
+{% end %}
+
+### 0. environment setup and why python?
 
 <iframe
     width="560"
     height="315"
-    src="https://www.youtube.com/embed/Gn-yD-6cvYg?si=kjd9SloWIacU9w8K"
-    title="YouTube video player"
+    src="https://www.youtube.com/embed/gn-yd-6cvyg?si=kjd9slowiacu9w8k"
+    title="youtube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen>
 </iframe>
 
-{% note(center=true, header="Why Python?") %}
-Python is a fantastic language to start learning as a beginner as its syntax is similar to english moreso than other languages. On top of that python is an extremely popular and powerful language that is used in many facets of software, for instance, data science, artificial intelligence, web design, etc etc. I often hear the phrase: "Python is the swiss army knife of programming languages." and i wholeheartedly agree.
+{% note(center=true, header="why python?") %}
+python is a fantastic language to start learning as a beginner as its syntax is similar to english moreso than other languages. on top of that python is an extremely popular and powerful language that is used in many facets of software, for instance, data science, artificial intelligence, web design, etc etc. i often hear the phrase: "python is the swiss army knife of programming languages." and i wholeheartedly agree.
 {% end %}
 
-{% note(center=true, header="Setup") %}
-First, we need to set up a couple things.
+{% note(center=true, header="setup") %}
+first, we need to set up a couple things.
 
-- [Download and Install Python](https://www.python.org/downloads)
-  The latest stable version is fine, but anything over python 3+ is perfect
+- [download and install python](https://www.python.org/downloads)
+  the latest stable version is fine, but anything over python 3+ is perfect
 
-i am doing this on a windows 10 machine. so we may need a bit more set up. (may have to add to PATH)
+i am doing this on a windows 10 machine. so we may need a bit more set up. (may have to add to path)
 
-i know that python comes with a shell called IDLE that can run python code snippets. i am aware there are websites where you can write python code and it will run it.
+i know that python comes with a shell called idle that can run python code snippets. i am aware there are websites where you can write python code and it will run it.
 
 but we are taking a real step into the development world. having your own environment makes development personal. caring about your environment setup is fun.
 
-it's time to install an Integrated Development Environment (IDE). I will simply be using Vscode as it's the most popular.
+it's time to install an integrated development environment (ide). i will simply be using vscode as it's the most popular.
 
-- [Download and install VScode](https://code.visualstudio.com/download)
+- [download and install vscode](https://code.visualstudio.com/download)
 
-- [Python VScode Extension download](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [python vscode extension download](https://marketplace.visualstudio.com/items?itemname=ms-python.python)
 
 ```c,linenos
 int main() {
@@ -53,28 +104,28 @@ int main() {
 
 ---
 
-### 1. Hello, World
+### 1. hello, world
 
 <iframe
     width="560"
     height="315"
-    src="https://www.youtube.com/embed/UAmUz6UlTfU?si=GCLvW8H4G8AtLX5J"
-    title="YouTube video player"
+    src="https://www.youtube.com/embed/uamuz6ultfu?si=gclvw8h4g8atlx5j"
+    title="youtube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen>
 </iframe>
 
-{% note(center=true, header="Hello, World!") %}
+{% note(center=true, header="hello, world!") %}
 now that we have everything set up it is time to write our first program: the "hello world" program.
 all the program does, is prints a string of text to the terminal.
 
-this is a long passed down tradition that people do when learning how to program. this can be found in the famous 1978 book: _The C Programming Language_ by Brian Kernighan and Dennis Ritchie.
+this is a long passed down tradition that people do when learning how to program. this can be found in the famous 1978 book: _the c programming language_ by brian kernighan and dennis ritchie.
 
 don't worry we won't be learning c.
 
-Hello, World function in python:
+hello, world function in python:
 
 ```py, linenos
 print("hello, world")
@@ -87,47 +138,51 @@ in python all we do is use the built in function `print()` and put a "string" of
 
 ---
 
-### 2. Data Types and Variables
+### 2. data types and variables
 
 <iframe
     width="560"
     height="315"
-    src="https://www.youtube.com/embed/yHryBiMnmz0?si=b720-b-WBNCpEJ1r"
-    title="YouTube video player"
+    src="https://www.youtube.com/embed/yhrybimnmz0?si=b720-b-wbncpej1r"
+    title="youtube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen>
 </iframe>
 
-{% note(center=true header="Data Types") %}
-A Data Type is simply telling us what kind of information something is. knowing what type of data something is, lets us know what we can or can't do with it.
+{% note(center=true header="data types") %}
+a data type is simply telling us what kind of information something is. knowing what type of data something is, lets us know what we can or can't do with it.
 
-starting with the basics, we have four basic Data Types:
+starting with the basics, we have four basic data types:
 
 - **integer**: (keyword: int) an integer is simply any whole number, positive, negative, or zero
 - **float**: (keyword: float) a float is any number with decimal places. postive, negative, or zero
 - **string**: (keyword: str) a string is a string of characters, or anything encapsulated inside double quotes ("test") or single quotes ('test')
-- **boolean**: (keyword: bool) a boolean only ever True (1) or False (0), it's like a light switch.
+- **boolean**: (keyword: bool) a boolean only ever true (1) or false (0), it's like a light switch.
 
 ```py
 int: -123, 0, 32131, 8
 float: -12.01, 0.0, 31.30000
-str: "hello world", "", "3", "-23", "False", 'True', '', '12.01'
-bool: True, False
+str: "hello world", "", "3", "-23", "false", 'true', '', '12.01'
+bool: true, false
 ```
 
 {% end %}
 
-{% note(center=true, header="Variables") %}
-**A Variable** is something that holds a piece of data. we define a name, then assign a value to that name.
-naming a variable has some rules like: cannot use spaces, cannot start with a number, and only has letters, numbers after start, or underscores. Capitalization does matter.
+{% note(center=true, header="variables") %}
+
+## **a variable** is something that holds a piece of data. we define a name, then assign a value to that name.
+
+naming a variable has some rules like: cannot use spaces, cannot start with a number, and only has letters, numbers after start, or underscores. capitalization does matter.
 e.g.
 
 ```txt
 valid_name: seven_eleven, i, x, iter, test2
 invalid: 7eleven, h^k, 2test
 ```
+
+## **assignment**
 
 it's tempting to see the equals sign and immediately think back to math, however all this is doing is assigning value.
 you can think of it more as an arrow
@@ -146,21 +201,22 @@ the reason why i make this distinction is because you can have a statement like 
 
 ```py
 x = 3
-y = 2
-x = x + y
-print(x)
+x = x + 1
+print(x)  # 4 is printed
 ```
 
-in math this equation is impossible. but in computer science, this is completely valid statement.
+this is why the equals sign, `=` is better to be thought of as "assignment."
+
+in math this equation: `x=x+1` is impossible. but in computer science, this is completely valid statement.
 in `x=x+y`
-all we are doing is reassigning the variable x to the sum of the current value of x and current value of y
-so our print(x) function will print out the integer: 5
+all we are doing is reassigning the variable x to the sum of the current value of x and 1
+so our print(x) function will print out the integer: 4
 
 in python, we do not need to declare the data type a variable like in other languages.
 python will imply the type of the data based on what we are assigning the variable.
 
 ```py
-# NOTE: the # sign is a special character that denotes a comment.
+# note: the # sign is a special character that denotes a comment.
 #       a comment is not read by the interpreter so we can place notes for ourselves)
 
 my_variable = "hello" # str
@@ -178,9 +234,9 @@ print(xyz)
 
 {% end %}
 
-### 3. Operators and User Input
+### 3. operators and user input
 
-{% note(center=true, header="Operators") %}
+{% note(center=true, header="operators") %}
 
 ```py
 +  # addition
@@ -219,67 +275,107 @@ logical operators:
 and, or, not
 ```
 
-{% end %}
-
-{% note(center=true, header="User Input") %}
+we will dive deeper into these in the next section but i wanted to let you know they exist.
 
 {% end %}
 
-### 4. Conditional Statements (multiple conditions/nested)
+{% note(center=true, header="user input") %}
+
+## user inputs
+
+now is where the fun begins.
+
+personally this is where i began to love programming. with user inputs, coding now can become a conversation.
+
+our silly little characters typed on a keyboard can now interact with us!
+
+to ask for the user's input all we have to do is this:
+
+```py
+input()
+```
+
+this is a valid input function call. however, it is quite confusing to the user. the program will wait for user's input, but since there is no message, the user will not know what to do!
+
+let's fix this by clarifying what we want our input to be.
+
+```py
+input("Please input an integer")  # pop quiz! what is an integer?
+```
+
+we use the built-in `input()` function and place our question inside the double quotes.
+
+in your IDE, try out this small program and test out variations on different data types!
+
+i am going to test you a little bit with what we have learned thus far.
+
+```py
+print("hello there, i sell water bottles")
+x = input("how many water bottles would you like?")
+print("you would like this many water bottles: ", x)  # bit of a different print function usage but see what it does!
+```
+
+{% end %}
+
+### 4. conditional statements (multiple conditions/nested)
 
 ---
 
-### 5. Loops
+### 5. loops
 
 ---
 
-### 6. Lists and Tuples
+### 6. lists and tuples
 
 ---
 
-### 7. Revisting Loops, iteration by item
+### 7. revisting loops, iteration by item
 
 ---
 
-### 8. String Methods
+### 8. string methods
 
 ---
 
-### 9. Slicing Operator
+### 9. slicing operator
 
 ---
 
-### 10. Dictionaries
+### 10. dictionaries
 
 ---
 
-### 11. Functions
+### 11. functions
 
 ---
 
-### 12. File Handling
+### 12. file handling
 
 ---
 
-### 13. Error Handling
+### 13. error handling
 
 ---
 
-### 14. List Methods
+### 14. list methods
 
 ---
 
-### 15. Modular Programming
+### 15. modular programming
 
 ---
 
-### 16. Scope
+### 16. scope
 
 ---
 
-### 17. Classes and Objects
+### 17. classes and objects
 
 ---
+
+```
+
+```
 
 ```
 

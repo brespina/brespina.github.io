@@ -51,4 +51,8 @@ i am about a month into using neovim and i have fallen in love. the configuratio
 
 ---
 
+[![bwandii](https://count.getloli.com/@:bwandii?name=%3Abwandii&theme=moebooru&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)](https://bwandii.io)
+
+---
+
 [/do not click this](./gotem/video)
